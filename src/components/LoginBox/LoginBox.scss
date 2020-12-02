@@ -1,0 +1,25 @@
+.login-box {
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 30px 30px 15px;
+  max-width: 350px;
+  width: 350px;
+
+  .error--text {
+    color: #f00 !important;
+  }
+
+  .login-btn {
+    float: right;
+    margin-bottom: 20px;
+
+    &-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

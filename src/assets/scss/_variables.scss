@@ -1,0 +1,79 @@
+/*----------------------------------------------------------------*/
+/*  Variables
+/*----------------------------------------------------------------*/
+
+// Global
+$color-primary: #6AFFBD;
+$color-accent: #161A25;
+$color-dark: #060B12;
+$color-gray: #878E9D;
+
+// Media Query Sizes
+$small-screen-up: 601px !default;
+$medium-screen-up: 961px !default;
+$large-screen-up: 1281px !default;
+$xl-screen-up: 1441px !default;
+
+$small-screen: 600px !default;
+$medium-screen: 960px !default;
+$large-screen: 1280px !default;
+$xl-screen: 1440px !default;
+
+$h-large-screen: 1000px !default;
+
+// Media Query Ranges
+$small-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$medium-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$large-screen-up})" !default;
+$xl-and-up: "only screen and (min-width : #{$xl-screen-up})" !default;
+
+$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
+$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
+$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
+$large-only: "only screen and (min-width : #{$medium-screen-up}) and (max-width : #{$large-screen})" !default;
+
+// Typography
+$font_path: '~@/assets/fonts/';
+$font-family-body: 'Roboto', sans-serif;
+$font-family-code: 'Monaco', 'Menlo', 'Consolas', 'Ubuntu Mono', monospace;
+
+// Font Weight
+$font-weight-light: 100;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// Font Size
+$font-size-root: 100%;
+$font-size-base: 16px;
+
+$font-size-xl: 2rem;
+$font-size-lg: 1.3rem;
+$font-size-md: 1rem;
+$font-size-sm: 0.875rem;
+$font-size-xs: 0.8125rem;
+
+$h1: 3rem;
+$h2: 2.5rem;
+$h3: 2rem;
+$h4: 1.8rem;
+$h5: 1.4rem;
+$h6: 1.2rem;
+
+
+// Text Inputs/Textarea
+$input-height: 45px !default;
+$input-width: 300px !default;
+$input-text-color: #333 !default;
+$input-border: 1px solid #efefef !default;
+$input-background: #efefef !default;
+$input-font-size: 1rem !default;
+$input-margin: 0 0 0 0 !default;
+$input-padding: 0 10px !default;
+$input-transition: all .3s ease !default;
+$input-border-radius: 2px;
+
+$placeholder-text-color: #BFBFBF;
+
+// Label
+$label-font-size: 1rem !default;
+$label-color: #555 !default;

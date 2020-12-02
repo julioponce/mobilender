@@ -1,0 +1,38 @@
+.user-dropdown {
+  align-items: center;
+  display: flex;
+
+  .name {
+    font-size: $font-size-sm;
+  }
+
+  .trigger {
+    background-color: transparent !important;
+    box-shadow: none;
+    display: flex;
+    height: auto;
+    margin: 0 0 0 10px;
+    padding: 0;
+
+    &:before {
+      display: none !important;
+    }
+  }
+
+  .v-icon {
+    color: #ccc;
+    margin-left: 5px;
+  }
+}
+
+.v-menu__content {
+  .v-list-item__content {
+    padding: 5px 0;
+
+    .v-btn {
+      text-transform: none !important;
+      justify-content: flex-start;
+      letter-spacing: 0.05px !important;
+    }
+  }
+}

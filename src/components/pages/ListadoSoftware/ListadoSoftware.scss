@@ -1,0 +1,23 @@
+.listado-de-software {
+  .list {
+    .indicator {
+      flex: initial;
+      margin-right: 40px;
+    }
+
+    .name {
+      color: lighten($color-gray, 20%);
+      font-size: $font-size-lg;
+      font-weight: $font-weight-bold;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: flex-end;
+
+      .v-icon {
+        color: lighten($color-gray, 20%);
+      }
+    }
+  }
+}

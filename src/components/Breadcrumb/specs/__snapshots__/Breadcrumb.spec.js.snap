@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb Renders 1`] = `
+<div
+  class="breadcrumb"
+>
+  <ul
+    class="v-breadcrumbs theme--light"
+  />
+</div>
+`;

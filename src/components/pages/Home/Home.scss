@@ -1,0 +1,32 @@
+.home {
+
+  .body {
+    display: flex;
+
+    .action-btn {
+      display: flex;
+      flex: initial;
+      flex-direction: column;
+      justify-content: center;
+      text-decoration: none;
+
+      .box {
+        border: 3px solid $color-primary;
+        border-radius: 4px;
+        padding: 30px 35px;
+        margin: 10px;
+        text-decoration: none;
+
+        .v-icon {
+          color: lighten($color-gray, 20%);
+        }
+      }
+
+      span {
+        color: lighten($color: $color-gray, $amount: 20%);
+        font-weight: $font-weight-bold;
+        text-align: center;
+      }
+    }
+  }
+}

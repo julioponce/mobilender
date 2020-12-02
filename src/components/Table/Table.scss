@@ -1,0 +1,47 @@
+.table {
+  .v-data-table {
+    background-color: transparent;
+    color: $color-gray;
+
+    &__wrapper {
+      table {
+        border-collapse: separate;
+        border-spacing: 0 10px;
+
+        thead {
+          tr {
+            th {
+              color: $color-gray !important;
+              text-align: left;
+              height: auto;
+              padding: 0 16px 5px;
+            }
+          }
+        }
+
+        tbody {
+          tr {
+            background-color: $color-accent !important;
+
+            &:hover {
+              background-color: $color-accent !important;
+            }
+
+            td {
+              padding-top: 15px;
+              padding-bottom: 15px;
+
+              &:first-child {
+                border-radius: 6px 0 0 6px;
+              }
+
+              &:last-child {
+                border-radius: 0 6px 6px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

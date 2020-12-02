@@ -1,0 +1,57 @@
+/*----------------------------------------------------------------*/
+/*  Mixins
+/*----------------------------------------------------------------*/
+
+@mixin layout-xs {
+  @media #{$small-and-down} {
+    @content
+  }
+};
+
+@mixin layout-gt-xs {
+  @media #{$small-and-up} {
+    @content
+  }
+};
+
+@mixin layout-sm {
+  @media #{$medium-and-down} {
+    @content
+  }
+};
+
+@mixin layout-gt-sm {
+  @media #{$medium-and-up} {
+    @content
+  }
+};
+
+@mixin layout-md {
+  @media #{$medium-only} {
+    @content
+  }
+};
+
+@mixin layout-gt-md {
+  @media #{$large-and-up} {
+    @content
+  }
+};
+
+@mixin layout-lg {
+  @media #{$large-only} {
+    @content
+  }
+};
+
+@mixin layout-gt-lg {
+  @media #{$large-and-up} {
+    @content
+  }
+};
+
+@mixin layout-xl {
+  @media #{$xl-and-up} {
+    @content
+  }
+};

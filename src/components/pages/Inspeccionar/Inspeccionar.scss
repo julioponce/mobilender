@@ -1,0 +1,68 @@
+.inspeccionar {
+  .v-text-field {
+
+    &__details {
+      display: none;
+    }
+
+    .v-input__prepend-inner {
+      margin-left: 10px;
+      margin-right: 15px;
+    }
+
+    .v-icon {
+      font-size: 34px;
+      color: lighten($color: $color-gray, $amount: 20%)
+    }
+
+    input {
+      color: white;
+
+      &:-webkit-autofill {
+        background-color: transparent !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-text-fill-color: white;
+      }
+
+      &:-webkit-autofill:focus {
+        background-color: transparent !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-text-fill-color: white
+      }
+    }
+  }
+
+  .results {
+    color: $color-gray;
+    margin-bottom: 20px;
+  }
+
+  .table {
+    td {
+      padding-top: 8px !important;
+      padding-bottom: 5px !important;
+      font-weight: $font-weight-bold;
+    }
+
+    .client {
+      display: flex;
+      align-items: center;
+
+      .v-avatar {
+        margin-right: 20px;
+      }
+    }
+
+    .goto {
+      a {
+        text-decoration: none;
+        float: right;
+        font-weight: $font-weight-regular;
+      }
+
+      .v-icon { color: $color-gray; }
+    }
+  }
+}

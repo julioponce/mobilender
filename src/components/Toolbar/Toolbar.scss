@@ -1,0 +1,20 @@
+.toolbar {
+  width: 100%;
+
+  .top {
+    background-color: $color-accent;
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .bottom {
+    .container {
+      padding-bottom: 0;
+    }
+  }
+}

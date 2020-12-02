@@ -1,0 +1,30 @@
+.breadcrumb {
+  margin-bottom: 10px;
+
+  .v-breadcrumbs {
+    padding: 1rem 0 0 0;
+
+    &__divider {
+      color: #ccc !important;
+    }
+
+    &__item {
+      font-size: $font-size-sm;
+      text-decoration: underline;
+      text-transform: capitalize;
+      color: white;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &:visited {
+        color: white;
+      }
+
+      &.router-link-active {
+        color: #999 !important;
+        text-decoration: none !important;
+      }
+    }
+  }
+}

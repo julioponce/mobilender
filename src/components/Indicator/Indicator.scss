@@ -1,0 +1,10 @@
+.indicator {
+  background-color: rgba(155,155,155,0.2);
+  border: 2px solid $color-primary;
+  border-radius: 4px;
+  color: lighten($color-gray, 20%);
+  display: inline;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+  padding: 8px 10px;
+}

@@ -1,0 +1,24 @@
+.creditos-grupales {
+  .file-name {
+    color: lighten($color-gray, 20%);
+    font-size: $font-size-sm;
+    font-weight: $font-weight-bold;
+  }
+
+  .actions {
+    .v-icon {
+      color: lighten($color-gray, 10%);
+      margin: 0 5px;
+    }
+  }
+
+  .goto {
+    a { text-decoration: none; }
+
+    .v-icon { color: $color-gray; }
+  }
+
+  .finalizado { color: $color-primary; }
+  .en-proceso { color: #D9AB2A; }
+  .rechazado { color: #800D2A; }
+}
